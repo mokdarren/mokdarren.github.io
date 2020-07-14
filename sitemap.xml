@@ -3,15 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mokdarren.github.io/netlifysite/</loc>
+    <loc>http://mokdarren.com/</loc>
+    <lastmod>2020-07-14T20:18:13+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mokdarren.github.io/netlifysite/categories/</loc>
+    <loc>http://mokdarren.com/blog/</loc>
+    <lastmod>2020-07-14T20:18:13+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mokdarren.github.io/netlifysite/tags/</loc>
+    <loc>http://mokdarren.com/categories/</loc>
+    <lastmod>2020-07-14T20:18:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mokdarren.com/categories/programming/</loc>
+    <lastmod>2020-07-14T20:18:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mokdarren.com/categories/trading/</loc>
+    <lastmod>2020-07-14T20:18:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mokdarren.com/blog/trading/flush/</loc>
+    <lastmod>2020-07-14T20:18:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mokdarren.com/blog/first-post/</loc>
+    <lastmod>2020-07-14T15:50:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mokdarren.com/categories/business/</loc>
+    <lastmod>2020-07-14T15:50:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mokdarren.com/categories/web-development/</loc>
+    <lastmod>2020-07-14T15:50:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mokdarren.com/posts/first-post/</loc>
+    <lastmod>2020-07-14T15:42:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mokdarren.com/categories/personal/</loc>
+    <lastmod>2020-07-14T15:42:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mokdarren.com/posts/</loc>
+    <lastmod>2020-07-14T15:42:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mokdarren.com/tags/</loc>
   </url>
   
 </urlset>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Categories</title>
+    <title>Trading Alogrithmically, powered by OANDA</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -20,7 +20,8 @@
 
 
     
-    <link rel="stylesheet" href="/assets/css/list.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css" />
+<link rel="stylesheet" href="/assets/css/single.css" />
 
 
     
@@ -44,11 +45,11 @@ if (!doNotTrack) {
     <div class="container-fluid bg-dimmed wrapper">
       
       
-    <nav class="navbar navbar-expand-lg top-navbar final-navbar shadow">
+<nav class="navbar navbar-expand-lg top-navbar final-navbar shadow">
     <div class="container">
-      <a class="navbar-brand" href="http://mokdarren.com/">
+      <a class="navbar-brand" href="/posts">
         <img src="/assets/images/logo.png">mokdarren</a>
-      <button class="navbar-toggler navbar-light" type="button" onclick="toggleSidebar()">
+      <button class="navbar-toggler navbar-light" type="button" >
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -63,74 +64,117 @@ if (!doNotTrack) {
 
       
       
-<div class="sidebar" id="sidebar">
-    <div class="sidebar-tree">
-      <input type="text" name="filtr-search" value="" placeholder="Search" data-search="" id="search-box" />
-      <ul class="tree" id="tree">
-        <li id="list-heading"><a href="#" data-filter="all">Categories</a></li>
-        <div class="subtree">
-            
-
-        </div>
-      </ul>
-    </div>
+<div class="container p-0 read-area">
+  
+  <div class="hero-area col-sm-12"
+    style='background-image: url(http://mokdarren.com/assets/images/post2.jpg);'>
   </div>
-  <div class="content container-fluid" id="content">
-    <div class="content-cards">
-      <div class="container-fluid filtr-container post-cards" id="post-cards">
-        
-          <div class="filtr-item" data-category='programming,trading'>
-  <a href="/blog/trading/flush/" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/assets/images/post2.jpg'/>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Trading Alogrithmically, powered by OANDA</h5>
-        <p class="card-text post-summary">This entry will mark the start of running a live algorithm on OANDA, I will document it's performance weekly on this blog to determine it's profitability. I call this strategy the Flush strategy, and it makes trades when a significant move is felt in the market. After performing backtests on 2 years of past data, I found this strategy to be highly profitable on volatile markets such as Crude Oil and Gold.</p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">July 14, 2020</span>
-        <a
-        href="/blog/trading/flush/"
-        class="float-right btn btn-outline-info btn-sm"
-        >Read</a
-        >
-      </div>
-    </div>
-  </a>
-</div>
 
-        
-          <div class="filtr-item" data-category='programming,trading,web development,business'>
-  <a href="/blog/first-post/" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/assets/images/post1.jpg'/>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Beggining with the end in mind</h5>
-        <p class="card-text post-summary">COVID19 has not only shortened my dreamy 6-month long study abroad program in Sweden but also caused my internship at a reputable bank to be canceled. As Parkinson's Second Law puts it, "work expands to fill the time available for its completion". I had to do something about it to make my time productive. I never had the opportunity to explore Web technologies outside of my Academic Work in NUS. Therefore this was a good opportunity to explore the field of Web Development.</p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">July 14, 2020</span>
-        <a
-        href="/blog/first-post/"
-        class="float-right btn btn-outline-info btn-sm"
-        >Read</a
-        >
-      </div>
+  
+  <div class="page-content">
+    <div class="author-profile ml-auto align-self-lg-center">
+      <img class="rounded-circle" src='/assets/images/default-avatar.png' />
+      <h5 class="author-name">Mok Darren</h5>
+      <p>July 14, 2020</p>
     </div>
-  </a>
-</div>
 
-        
-        
-      </div>
+    <div class="title">
+      <h1>Trading Alogrithmically, powered by OANDA</h1>
+    </div>
+
+    <div class="post-content" id="post-content">
+      <span style="font-size:1.25rem;">
+This entry will mark the start of running a live algorithm on OANDA, I will document it's performance weekly on this blog to determine it's profitability. I call this strategy the Flush strategy, and it makes trades when a significant move is felt in the market. After performing backtests on 2 years of past data, I found this strategy to be highly profitable on volatile markets such as Crude Oil and Gold. Therefore this script will only be performed on the following trading pairs:
+<p><br></br>
+<strong>Pairs</strong>:</p>
+<ul>
+<li>BCO_USD</li>
+<li>WTI_USD</li>
+<li>XAU_USD</li>
+</ul>
+<p><strong>Targets</strong>:</p>
+<ul>
+<li>A monthly increase of 5%</li>
+<li>Maximum drawdown of 30%</li>
+</ul>
+<p>Start: $850SGD </br>
+Date: 2020-07-14</p>
+<p><strong>COMING SOON</strong>
+In an effort to learn how to make simple telegram channels, I will also be sharing my trading signals on a telegram channel in real time to give updates to anyone who wishes to follow my trades! 
+</span></p>
+
+    </div>
+
+    
+    
+    <div class="btn-improve-page">
+      <a href="https://github.com/mokdarren/edit/master/content/blog%5ctrading%5cflush.md">
+        <i class="fas fa-code-branch"></i>
+        Improve This Page
+      </a>
+    </div>
+    
+
+    
+    <hr />
+    <div class="row next-prev-navigator">
+
+
+  
+
+  
+    
+    
       
-    </div>
-  </div>
+        
+        
+        <div class="col-md-12 next-article">
+          <a href="/blog/first-post/" class="btn btn-outline-info">
+            <span>Next <i class="fas fa-chevron-circle-right"></i></span>
+            <br />
+            <span>Beggining with the end in mind</span>
+          </a>
+        </div>
+      
+    
+  
 
+</div>
+
+    <hr />
+    
+    
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function () {
+    
+    
+    if (window.location.hostname == "localhost") return;
+
+    var dsq = document.createElement("script");
+    dsq.type = "text/javascript";
+    dsq.async = true;
+    var disqus_shortname = "does-not-exist";
+    dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+    (
+      document.getElementsByTagName("head")[0] ||
+      document.getElementsByTagName("body")[0]
+    ).appendChild(dsq);
+  })();
+</script>
+<noscript
+  >Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript"
+    >comments powered by Disqus.</a
+  ></noscript
+>
+<a href="https://disqus.com/" class="dsq-brlink"
+  >comments powered by <span class="logo-disqus">Disqus</span></a
+>
+
+    
+  </div>
+  
     </div>
 
     <footer class="container-fluid text-center align-content-center footer pb-2">
@@ -225,7 +269,12 @@ if (!doNotTrack) {
 
     
     
-    <script src="/assets/js/list.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+  <script src="/assets/js/single.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  
+  
   </body>
 </html>
