@@ -50,8 +50,7 @@ body {
 }
 
 .post-content {
-  padding: 50px;
-  /*default 15*/
+  padding: 15px;
 }
 
 .post-content h1,
@@ -230,7 +229,6 @@ mark {
 .btn-improve-page{
   text-align: right;
 }
-
 
 @media only screen and (max-width: 768px) {
   .wrapper {

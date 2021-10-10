@@ -6,11 +6,7 @@
     <description>Recent content in trading on mokdarren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jul 2020 16:40:10 +0800</lastBuildDate>
-    
-	<atom:link href="https://mokdarren.com/categories/trading/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 30 Jul 2020 16:40:10 +0800</lastBuildDate><atom:link href="https://mokdarren.com/categories/trading/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mid month algo update</title>
       <link>https://mokdarren.com/blog/trading/mid_month_update/</link>
